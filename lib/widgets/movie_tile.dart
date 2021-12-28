@@ -64,7 +64,7 @@ class MovieTile extends StatelessWidget {
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 22,
+                    fontSize: 20,
                     fontWeight: FontWeight.w400,
                   ),
                 ),
@@ -73,7 +73,7 @@ class MovieTile extends StatelessWidget {
                 movie!.rating!.toString(),
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 22,
+                  fontSize: 20,
                 ),
               ),
             ],
